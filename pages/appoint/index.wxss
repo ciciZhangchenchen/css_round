@@ -6,5 +6,7 @@
   font-size: 12px;
 }
 .submit {
-  margin-top: 50px;
+  margin-top: 20px;
+  border-radius: 0;
+  background: #FFA534 !important;
 }

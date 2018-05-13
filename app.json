@@ -3,6 +3,7 @@
     "pages/home/index",
     "pages/appoint/index",
     "pages/product/index",
+    "pages/complete/index",
     "pages/index/index",
     "pages/logs/logs"
   ],

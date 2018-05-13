@@ -1,0 +1,8 @@
+@import "../common/lib/weui.wxss";
+.page-section {
+  display: flex;
+  flex-direction: column;
+}
+.type-icon {
+  margin: 40px 0;
+}

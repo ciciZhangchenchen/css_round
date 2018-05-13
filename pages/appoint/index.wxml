@@ -2,6 +2,20 @@
   <view class="page-body">
     <view class="page-section">
 
+    <view class="weui-cells__title">预约门店</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">当前选择</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{store}}">
+              <view class="weui-input">{{store[index]}}</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+
       <view class="weui-cells__title">预约项目</view>
       <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell weui-cell_input">
@@ -44,8 +58,8 @@
         </view>
       </view>
 
-      <button type="primary" class='submit'>提交预约</button>
-
+      <button type="primary" class='submit' bindtap="submitAppoint">提交预约</button>
+      <loading hidden='{{hideLoading}}'></loading>
     </view>
   </view>
 </view>

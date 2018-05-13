@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <icon type="{{icon}}" size="50" class='type-icon'/>
+      <text>{{text}}</text>
+    </view>
+  </view>
+</view>
