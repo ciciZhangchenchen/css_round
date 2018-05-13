@@ -42,3 +42,42 @@
 .home-nav .item4 {
   background: #ea984b;
 }
+.demo-text-1 {
+  display: flex;
+  width: 100%;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  background-color: #e0e0e0;
+  color:#FFFFFF;
+  font-size:36rpx;
+}
+.demo-text-2 {
+  display: flex;
+  width: 100%;
+  background: #e0e0e0;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  color:#FFFFFF;
+  font-size:36rpx;
+}
+.demo-text-3 {
+  display: flex;
+  width: 100%;
+  background: #e0e0e0;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  color:#FFFFFF;
+  font-size:36rpx;
+}
+swiper {
+  height:100px;
+  width: 100%;
+}
+.swiper-item {
+  display:block;
+  height:100px;
+  width: 100%;
+}

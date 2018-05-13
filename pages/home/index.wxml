@@ -1,12 +1,14 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> 
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">Hi, {{userInfo.nickName}}</text>
-    </block> 
-  </view>
+  <swiper
+    indicator-dots="true" autoplay="true" circular="false"
+    interval="2000" duration="500" previous-margin="0px" next-margin="0x">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}"><text>{{item}}</text></view>
+      </swiper-item>
+    </block>
+  </swiper>
   <view class="home-nav">
     <view class='item item1' id="product" bindtap="bindViewTap">part1</view>
     <view class='item item2' id="appoint" bindtap="bindViewTap">part2</view>
