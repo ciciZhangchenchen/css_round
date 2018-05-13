@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/product/index",
+    "pages/appoint/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e0e0e0",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
