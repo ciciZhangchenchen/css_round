@@ -24,7 +24,7 @@ Page({
   },
   onLoad: function () {
     wx.setNavigationBarTitle({
-      title: '当前页面'
+      title: '我要预约'
     })
     const today = formatTime(new Date())
     this.setData({

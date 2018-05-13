@@ -8,8 +8,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#e0e0e0",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#FFA534",
+    "navigationBarTitleText": "布布交易平台",
     "navigationBarTextStyle":"black"
   }
 }

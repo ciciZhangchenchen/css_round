@@ -23,5 +23,8 @@ Page({
       }]
   },
   onLoad: function () {
+    wx.setNavigationBarTitle({
+      title: '我要购物'
+    })
   }
 })

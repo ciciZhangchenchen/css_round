@@ -8,7 +8,11 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'), 
-    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    background: [
+      'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1485421353,1396351524&fm=27&gp=0.jpg',
+      'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2542324529,1102695841&fm=27&gp=0.jpg', 
+      'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1557186674,2996018424&fm=27&gp=0.jpg'
+      ],
     previousMargin: 0,
     nextMargin: 0
   },
@@ -43,6 +47,8 @@ Page({
     wx.navigateTo({ url: `../${e.currentTarget.id}/index`})
   },
   onLoad: function () {
-    
+    wx.setNavigationBarTitle({
+      title: '布布交易平台'
+    })
   },
 })

@@ -5,14 +5,14 @@
     interval="2000" duration="500" previous-margin="0px" next-margin="0x">
     <block wx:for="{{background}}" wx:key="*this">
       <swiper-item>
-        <view class="swiper-item {{item}}"><text>{{item}}</text></view>
+        <view class="swiper-item {{item}}"><image src='{{item}}' style='width: 100%;height: 100px'></image></view>
       </swiper-item>
     </block>
   </swiper>
   <view class="home-nav">
-    <view class='item item1' id="product" bindtap="bindViewTap">part1</view>
-    <view class='item item2' id="appoint" bindtap="bindViewTap">part2</view>
-    <view class='item item3'>part3</view>
-    <view class='item item4'>part4</view>
+    <view class='item item1' id="product" bindtap="bindViewTap">我要购物</view>
+    <view class='item item2' id="appoint" bindtap="bindViewTap">我要预约</view>
+    <view class='item item3'>我的会员</view>
+    <!-- <view class='item item4'>part4</view> -->
   </view>
 </view>
